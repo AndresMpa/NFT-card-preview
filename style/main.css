@@ -68,7 +68,7 @@ main .itemDescription h1 {
 main .itemDescription h1:hover {
   color: #00fff7;
 }
-main .itemDescription h3 {
+main .itemDescription h2 {
   color: #8bacda;
   font-weight: 100;
 }
