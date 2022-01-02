@@ -21,6 +21,19 @@ body {
   height: 100vh;
 }
 
+@media screen and (max-width: 750px) {
+  main {
+    width: 60vw;
+  }
+  main .itemFigure img:nth-child(1) {
+    height: 50vh;
+    width: 50vw;
+  }
+  main .itemFigure img:nth-child(2) {
+    bottom: 43%;
+    left: 43%;
+  }
+}
 main {
   flex-direction: column;
   place-content: center;
