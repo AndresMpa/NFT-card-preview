@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  overflow-anchor: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+ul,
+ol,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+html,
+body {
+  background-color: #0d192b;
+  place-content: center;
+  display: flex;
+  height: 100vh;
+}
+
+main {
+  flex-direction: column;
+  place-content: center;
+  display: flex;
+  width: 28vw;
+  background-color: #14253d;
+  padding: 0.5% 0.5% 2%;
+  border-radius: 15px;
+  margin: auto auto;
+  font-family: "Outfit", sans-serif;
+  color: white;
+}
+main .itemFigure {
+  margin: 3% auto;
+}
+main .itemFigure img {
+  border-radius: 15px;
+  height: 45vh;
+  width: 25vw;
+}
+main .itemDescription {
+  font-size: 18px;
+  padding: 3% 5%;
+}
+main .itemDescription h1 {
+  margin-bottom: 5%;
+}
+main .itemDescription h3 {
+  color: #8bacda;
+  font-weight: 100;
+}
+main .itemInfo {
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  padding: 3% 5%;
+}
+main .itemInfo figure {
+  justify-content: space-between;
+  align-self: center;
+  flex-direction: row;
+  display: flex;
+}
+main .itemInfo figure:nth-child(1) p {
+  color: #00fff7;
+  margin-left: 5px;
+  display: inline-flex;
+}
+main .itemInfo figure:nth-child(2) p {
+  color: #8bacda;
+  margin-left: 5px;
+  display: inline-flex;
+}
+main hr {
+  border: 0.2px solid #2f415b;
+  margin: 3% auto;
+  width: 90%;
+}
+main .creator {
+  align-items: center;
+  display: flex;
+  padding: 2% 5%;
+}
+main .creator figure {
+  height: 30px;
+}
+main .creator figure img {
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+main .creator h3 {
+  color: #8bacda;
+  margin-left: 15px;
+  font-weight: 300;
+  font-size: 16px;
+}
+main .creator h3 span {
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

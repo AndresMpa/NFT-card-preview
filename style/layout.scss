@@ -1,0 +1,93 @@
+main {
+  flex-direction: column;
+  place-content: center;
+  display: flex;
+  width: 28vw;
+
+  background-color: $card;
+  padding: 0.5% 0.5% 2%;
+  border-radius: 15px;
+  margin: auto auto;
+
+  font-family: $outfit;
+  color: $white;
+
+  .itemFigure {
+    margin: 3% auto;
+    img {
+      border-radius: 15px;
+      height: 45vh;
+      width: 25vw;
+    }
+  }
+
+  .itemDescription {
+    font-size: $text;
+    padding: 3% 5%;
+    h1 {
+      margin-bottom: 5%;
+    }
+    h3 {
+      color: $shoftBlue;
+      font-weight: 100;
+    }
+  }
+
+  .itemInfo {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+
+    padding: 3% 5%;
+    figure {
+      justify-content: space-between;
+      align-self: center;
+
+      flex-direction: row;
+      display: flex;
+    }
+    figure:nth-child(1) {
+      p {
+        color: $cyan;
+        margin-left: 5px;
+        display: inline-flex;
+      }
+    }
+    figure:nth-child(2) {
+      p {
+        color: $shoftBlue;
+        margin-left: 5px;
+        display: inline-flex;
+      }
+    }
+  }
+
+  hr {
+    border: 0.2px solid $line;
+    margin: 3% auto;
+    width: 90%;
+  }
+
+  .creator {
+    align-items: center;
+    display: flex;
+    padding: 2% 5%;
+    figure {
+      height: 30px;
+      img {
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid $white;
+      }
+    }
+    h3 {
+      color: $shoftBlue;
+      margin-left: 15px;
+      font-weight: 300;
+      font-size: 16px;
+      span {
+        color: $white;
+      }
+    }
+  }
+}
