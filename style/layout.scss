@@ -13,11 +13,29 @@ main {
   color: $white;
 
   .itemFigure {
+    border-radius: 15px;
+    position: relative;
     margin: 3% auto;
-    img {
+    img:nth-child(1) {
       border-radius: 15px;
-      height: 45vh;
+      height: 50vh;
       width: 25vw;
+    }
+    img:nth-child(2) {
+      position: absolute;
+      display: none;
+      bottom: 43%;
+      left: 43%;
+    }
+  }
+  
+  .itemFigure:hover {
+    background-color: $cyan;
+    img:nth-child(1) {
+      opacity: 0.5;
+    }
+    img:nth-child(2) {
+      display: block;
     }
   }
 
@@ -26,6 +44,9 @@ main {
     padding: 3% 5%;
     h1 {
       margin-bottom: 5%;
+    }
+    h1:hover {
+      color: $cyan;
     }
     h3 {
       color: $shoftBlue;
@@ -87,6 +108,9 @@ main {
       font-size: 16px;
       span {
         color: $white;
+      }
+      span:hover {
+        color: $cyan;
       }
     }
   }
